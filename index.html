@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section>
+      <h2>Sign Up</h2>
+      <form class="" action="index.html" method="post">
+
+        <div class="input-group user-type">
+          <div>
+            <input type="radio" name="user-type" value="" id="admin">
+            <label for="admin">admin</label>
+          </div>
+          <div>
+            <input type="radio" name="user-type" value="" id="personal" checked>
+            <label for="personal">personal</label>
+          </div>
+          <div>
+            <input type="radio" name="user-type" value="" id="guest">
+            <label for="guest">guest</label>
+          </div>
+        </div>
+
+        <div class="input-group profile-info">
+          <div class="input-field">
+            <label for="fullname">name</label>
+            <input type="text" name="fullname" id="fullname">
+          </div>
+          <div class="input-field">
+            <label for="emailaddr">email address</label>
+            <input type="text" name="fullname" id="fullname">
+          </div>
+          <div class="input-field">
+            <label for="pwd">password</label>
+            <input type="password" name="pwd" id="pwd">
+          </div>
+          <div class="input-field">
+            <label for="cpwd">confirm password</label>
+            <input type="password" name="cpwd" id="cpwd">
+          </div>
+          <div class="input-field">
+            <div>
+              <label for="pic">profile picture</label>
+              <input type="file">
+            </div>
+            <div class="file-btn upload-doc">
+              <span>Upload Doc</span>
+              <input type="file" id="upload-btn">
+            </div>
+          </div>
+          <div class="input-field">
+            <input type="submit" value="sign up" id="submit">
+          </div>
+        </div>
+
+      </form>
+    </section>
+
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  font-family: sans-serif;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FAD845;
+  padding: 1em;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 1em;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-type {
+  padding-top: 10px;
+  justify-content: space-between;
+  margin: 0px 115px;
+}
+
+.input-field {
+  width: calc(50% - 10px);
+  margin: 1.5em 0px;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: .5em;
+}
+
+.input-field input {
+  width: 100%;
+  font-size: 18px;
+  height: 2em;
+}
+
+.file-btn{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.file-btn > input[type='file']{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  margin: 0;
+  opacity: 0;
+}
+
+.upload-doc{
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px 5px;
+  color: #333;
+  background: orange;
+}
+
+.upload-doc:hover{
+  background: yellow;
+}
+
+
+#submit {
+  height: 2.5em;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
